@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+PyJWT
+python-multipart
+
+# RAG dependencies
+chromadb
+pymupdf
+python-docx
+beautifulsoup4
+rank-bm25
+
+# test dependencies
+pytest
+pytest-asyncio

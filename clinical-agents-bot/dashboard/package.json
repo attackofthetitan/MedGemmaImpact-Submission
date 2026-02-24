@@ -1,0 +1,26 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:real": "NEXT_PUBLIC_AGENT_BASE_URL=http://localhost:8888/dashboard next dev",
+    "dev:real:lan": "NEXT_PUBLIC_AGENT_BASE_URL=http://${API_HOST:-localhost}:8888/dashboard next dev -H 0.0.0.0 -p 3000",
+    "build": "npm run build:prod",
+    "build:prod": "NEXT_PUBLIC_AGENT_BASE_URL=${NEXT_PUBLIC_AGENT_BASE_URL:-/dashboard} next build",
+    "serve:static": "python3 -m http.server 4173 --bind 0.0.0.0 --directory out",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.57",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  }
+}

@@ -1,0 +1,147 @@
+{
+    "patient_id": "P004",
+    "info": {
+        "patient_id": "P004",
+        "name": "張淑芬",
+        "age": 55,
+        "sex": "female",
+        "mrn": "P004",
+        "dob": "1970-11-30"
+    },
+    "medications": [
+        {
+            "name": "Amlodipine",
+            "dose": "5mg",
+            "frequency": "QD",
+            "route": "PO",
+            "indication": "HTN",
+            "start_date": null,
+            "status": "active"
+        },
+        {
+            "name": "Metformin",
+            "dose": "1000mg",
+            "frequency": "BID",
+            "route": "PO",
+            "indication": "Type 2 DM",
+            "start_date": null,
+            "status": "active"
+        },
+        {
+            "name": "Glimepiride",
+            "dose": "2mg",
+            "frequency": "QD",
+            "route": "PO",
+            "indication": "Type 2 DM",
+            "start_date": null,
+            "status": "active"
+        }
+    ],
+    "allergies": [],
+    "problems": [
+        {
+            "icd_code": "E11.9",
+            "description": "Type 2 diabetes mellitus",
+            "onset_date": null,
+            "status": "active"
+        },
+        {
+            "icd_code": "I10",
+            "description": "Essential hypertension",
+            "onset_date": null,
+            "status": "active"
+        },
+        {
+            "icd_code": "K21.0",
+            "description": "GERD",
+            "onset_date": null,
+            "status": "active"
+        }
+    ],
+    "labs": [
+        {
+            "test_name": "HbA1c",
+            "value": "8.5",
+            "unit": "%",
+            "reference_range": "<7.0",
+            "flag": "high",
+            "collected_date": "2026-01-10",
+            "notes": null
+        },
+        {
+            "test_name": "Fasting Glucose",
+            "value": "186",
+            "unit": "mg/dL",
+            "reference_range": "70-100",
+            "flag": "high",
+            "collected_date": "2026-01-10",
+            "notes": null
+        },
+        {
+            "test_name": "Creatinine",
+            "value": "0.9",
+            "unit": "mg/dL",
+            "reference_range": "0.6-1.1",
+            "flag": "normal",
+            "collected_date": "2026-01-10",
+            "notes": null
+        },
+        {
+            "test_name": "Urine Microalbumin",
+            "value": "45",
+            "unit": "mg/L",
+            "reference_range": "<30",
+            "flag": "high",
+            "collected_date": "2026-01-10",
+            "notes": null
+        }
+    ],
+    "imaging": [
+        {
+            "report_id": "IMG005",
+            "patient_id": "P004",
+            "study_type": "Abdominal Ultrasound",
+            "study_date": "2025-11-02",
+            "body_part": "Abdomen",
+            "indication": "Elevated liver enzymes",
+            "technique": null,
+            "findings": [
+                {
+                    "location": "Liver",
+                    "finding": "Hepatic steatosis",
+                    "severity": "mild"
+                },
+                {
+                    "location": "Gallbladder",
+                    "finding": "No gallstones",
+                    "severity": "normal"
+                },
+                {
+                    "location": "Kidneys",
+                    "finding": "Normal size and echogenicity bilaterally",
+                    "severity": "normal"
+                }
+            ],
+            "impression": [
+                "Mild hepatic steatosis",
+                "Otherwise unremarkable"
+            ],
+            "critical_findings": [],
+            "radiologist": "Dr. 腹部超音波"
+        }
+    ],
+    "encounters": [
+        {
+            "encounter_id": "E006",
+            "date": "2026-01-10",
+            "type": "Office Visit",
+            "provider": "Dr. 陳內科",
+            "chief_complaint": "Diabetes management",
+            "diagnoses": [
+                "Type 2 DM - poor control",
+                "Early diabetic nephropathy"
+            ],
+            "summary": "HbA1c 8.5%, not at goal. Microalbuminuria detected. Started ACE inhibitor. Dietary counseling provided. Consider adding basal insulin if no improvement."
+        }
+    ]
+}

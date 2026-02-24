@@ -1,0 +1,224 @@
+{
+    "patient_id": "P001",
+    "info": {
+        "patient_id": "P001",
+        "name": "王小明",
+        "age": 45,
+        "sex": "male",
+        "mrn": "P001",
+        "dob": "1980-03-15"
+    },
+    "medications": [
+        {
+            "name": "Metformin",
+            "dose": "500mg",
+            "frequency": "BID",
+            "route": "PO",
+            "indication": "Type 2 DM",
+            "start_date": null,
+            "status": "active"
+        },
+        {
+            "name": "Lisinopril",
+            "dose": "10mg",
+            "frequency": "QD",
+            "route": "PO",
+            "indication": "HTN",
+            "start_date": null,
+            "status": "active"
+        },
+        {
+            "name": "Atorvastatin",
+            "dose": "20mg",
+            "frequency": "QHS",
+            "route": "PO",
+            "indication": "Hyperlipidemia",
+            "start_date": null,
+            "status": "active"
+        },
+        {
+            "name": "Aspirin",
+            "dose": "100mg",
+            "frequency": "QD",
+            "route": "PO",
+            "indication": "CVD prevention",
+            "start_date": null,
+            "status": "active"
+        }
+    ],
+    "allergies": [
+        {
+            "allergen": "Penicillin",
+            "reaction": "Rash, hives",
+            "severity": "moderate",
+            "verified": true
+        }
+    ],
+    "problems": [
+        {
+            "icd_code": "E11.9",
+            "description": "Type 2 diabetes mellitus",
+            "onset_date": null,
+            "status": "active"
+        },
+        {
+            "icd_code": "I10",
+            "description": "Essential hypertension",
+            "onset_date": null,
+            "status": "active"
+        },
+        {
+            "icd_code": "E78.5",
+            "description": "Hyperlipidemia",
+            "onset_date": null,
+            "status": "active"
+        }
+    ],
+    "labs": [
+        {
+            "test_name": "HbA1c",
+            "value": "7.2",
+            "unit": "%",
+            "reference_range": "<7.0",
+            "flag": "high",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "Fasting Glucose",
+            "value": "142",
+            "unit": "mg/dL",
+            "reference_range": "70-100",
+            "flag": "high",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "Creatinine",
+            "value": "1.0",
+            "unit": "mg/dL",
+            "reference_range": "0.7-1.3",
+            "flag": "normal",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "eGFR",
+            "value": "82",
+            "unit": "mL/min/1.73m²",
+            "reference_range": ">60",
+            "flag": "normal",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "value": "198",
+            "unit": "mg/dL",
+            "reference_range": "<200",
+            "flag": "normal",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "LDL",
+            "value": "118",
+            "unit": "mg/dL",
+            "reference_range": "<100",
+            "flag": "high",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "HDL",
+            "value": "42",
+            "unit": "mg/dL",
+            "reference_range": ">40",
+            "flag": "normal",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "Triglycerides",
+            "value": "165",
+            "unit": "mg/dL",
+            "reference_range": "<150",
+            "flag": "high",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "ALT",
+            "value": "38",
+            "unit": "U/L",
+            "reference_range": "7-56",
+            "flag": "normal",
+            "collected_date": "2026-01-17",
+            "notes": null
+        },
+        {
+            "test_name": "AST",
+            "value": "32",
+            "unit": "U/L",
+            "reference_range": "10-40",
+            "flag": "normal",
+            "collected_date": "2026-01-17",
+            "notes": null
+        }
+    ],
+    "imaging": [
+        {
+            "report_id": "IMG001",
+            "patient_id": "P001",
+            "study_type": "Chest X-ray",
+            "study_date": "2025-12-02",
+            "body_part": "Chest",
+            "indication": "Annual screening",
+            "technique": null,
+            "findings": [
+                {
+                    "location": "Heart",
+                    "finding": "Normal cardiac silhouette",
+                    "severity": "normal"
+                },
+                {
+                    "location": "Lungs",
+                    "finding": "Clear lung fields bilaterally",
+                    "severity": "normal"
+                }
+            ],
+            "impression": [
+                "No acute cardiopulmonary abnormality"
+            ],
+            "critical_findings": [],
+            "radiologist": "Dr. 林放射科"
+        }
+    ],
+    "encounters": [
+        {
+            "encounter_id": "E001",
+            "date": "2026-01-01",
+            "type": "Office Visit",
+            "provider": "Dr. 陳內科",
+            "chief_complaint": "Diabetes follow-up",
+            "diagnoses": [
+                "Type 2 DM - suboptimal control",
+                "Hypertension - controlled"
+            ],
+            "summary": "HbA1c 7.2%, up from 6.8%. Discussed diet compliance. Increased Metformin to 500mg BID. Recheck in 3 months."
+        },
+        {
+            "encounter_id": "E002",
+            "date": "2025-10-03",
+            "type": "Office Visit",
+            "provider": "Dr. 陳內科",
+            "chief_complaint": "Annual physical",
+            "diagnoses": [
+                "Type 2 DM",
+                "Hypertension",
+                "Hyperlipidemia"
+            ],
+            "summary": "Routine annual exam. All conditions stable. Continue current medications."
+        }
+    ]
+}

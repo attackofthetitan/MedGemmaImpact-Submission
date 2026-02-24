@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+# line bot
+line-bot-sdk
